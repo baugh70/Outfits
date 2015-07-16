@@ -41,11 +41,11 @@ class Pants
     }  
   end
   
-  def shorts
+def get_shorts
      shorts[num]
   end
   
-  def pants
+def get_pants
     pants[num]
   end 
 end

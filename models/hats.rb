@@ -20,7 +20,7 @@ class Hat
       }
   end
   
-  def hats
+  def get_hat
     hats[num]
   end
 end

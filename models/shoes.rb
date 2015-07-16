@@ -24,6 +24,7 @@ class Sneakers
   end
   
   def sneakers
-    sneakers[num]
+    sneakers[@num]
+    rand(5)
   end
  end

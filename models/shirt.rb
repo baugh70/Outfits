@@ -45,11 +45,11 @@ class Shirt
 
   end
   
-  def shirt
+  def get_shirt
      shirts[num]
   end
   
-  def tshirts
+  def get_tshirt
     tshirts[num]
   end 
 end
