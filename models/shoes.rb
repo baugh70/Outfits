@@ -1,30 +1,29 @@
-class Sneakers
+class Shoes
   def initialize(num)
     @num =num
-    sneakers ={
-      0 => {name: "Sperrys"
+    @sneakers ={
+      0 => {name: "Sperrys",
            img: "img"
            }, 
-      1 => {name: "Jordans"
+      1 => {name: "Jordans",
         img: "img"
         }, 
-      2 =>  {name: "Nikes"
+      2 =>  {name: "Nikes",
             img: "img"
         }, 
-      3 => {name: "Timbs"
+      3 => {name: "Timbs",
             img: "img"
         },
-      4 => {name: "Running sneakers"
+      4 => {name: "Running sneakers",
             img: "img"
         }, 
-      5 => {name: "Adidas"
+      5 => {name: "Adidas",
             img: "img"
         } 
       }
   end
   
-  def sneakers
-    sneakers[@num]
-    rand(5)
+  def shoes
+    @sneakers[@num]
   end
  end

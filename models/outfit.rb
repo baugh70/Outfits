@@ -21,34 +21,36 @@ class Outfit
   
   def get_hat 
     r = Random.new
-    hat = Hat.new(r.rand(0..9))
-    hat
+    hat = Hat.new(r.rand(0..1))
+    hat.hat
   end
   
   def get_pants
+     r = Random.new
     if hot_or_cold == "hot"
-      shorts = Shorts.new
+      shorts = Pants.new(r.rand(0..1))
       return shorts.shorts
     else
-      pants = Pants.new
+      pants = Pants.new(r.rand(0..1))
       return pants.new
     end
   end
   
   def get_shirt
-    if hot_or_cold >= 70
-      tshirt = TShirt.new
-      return tshirt.shirt
+     r = Random.new
+    if hot_or_cold == "hot"
+      tshirt = Shirt.new(r.rand(0..1))
+      return tshirt.tshirt
     else
-      shirt = Shirt.new
+      shirt = Shirt.new(r.rand(0..1))
       return shirt.shirt
     end
   end
   
   def get_shoes
     r = Random.new 
-    shoes = Shoes.new(r.rand(0..9))
-    shoes  
+    shoes = Shoes.new(r.rand(0..1))
+    shoes.shoes
   end
   
   def finalize

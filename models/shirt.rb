@@ -1,56 +1,56 @@
 class Shirt
   def initialize(num)
     @num =num
-      shirts = {
-      0 => {name: "white shirt"
+      @shirts = {
+      0 => {name: "white shirt",
            img: "img"
         },
-      1 => {name: "black shirt"
+      1 => {name: "black shirt",
            img: "img"
         },
-      2 => {name: "blue shirt"
+      2 => {name: "blue shirt",
             img: "img"
         },
-      3 => {name: "green shirt"
+      3 => {name: "green shirt",
             img: "img"
         },
-      4 => {name: "gray shirt"
+      4 => {name: "gray shirt",
             img: "img"
-        }
-        5 => {name: "red shirt"
+        },
+      5 => {name: "red shirt",
               img: "img"
         }
       }
     
-          tshirts = {
-      0 => {name: "white tshirt"
+          @tshirts = {
+      0 => {name: "white tshirt",
            img: "img"
         },
-      1 => {name: "black tshirt"
+      1 => {name: "black tshirt",
            img: "img"
         },
-      2 => {name: "blue tshirt"
+      2 => {name: "blue tshirt",
             img: "img"
         },
-      3 => {name: "green tshirt"
+      3 => {name: "green tshirt",
             img: "img"
         },
-      4 => {name: "gray tshirt"
+      4 => {name: "gray tshirt",
             img: "img"
-        }
-        5 => {name: "red tshirt"
+        },
+        5 => {name: "red tshirt",
               img: "img"
         }
       }
 
   end
   
-  def get_shirt
-     shirts[num]
+  def shirt
+     @shirts[@num]
   end
   
-  def get_tshirt
-    tshirts[num]
+  def tshirt
+    @tshirts[@num]
   end 
 end
 
