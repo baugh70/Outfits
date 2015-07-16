@@ -1,8 +1,7 @@
-require_relative 'shirt.rb'
 class Outfit
   attr_reader = :zip_code, :occasion, :gender
   
-  def initialize(zip_code, occasion, gender)
+  def initialize(zip_code)
     @zip_code = zip_code
     @occasion = occasion
     @gender = gender
@@ -61,5 +60,8 @@ class Outfit
       }
     
     @outfit
-  end 
+  end
+  
+  
+  
 end
