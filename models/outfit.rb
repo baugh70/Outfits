@@ -1,10 +1,10 @@
 class Outfit
   attr_reader = :zip_code, :occasion, :gender
   
-  def initialize(zip_code, occasion, gender)
+  def initialize(zip_code)
     @zip_code = zip_code
-    @occasion = occasion
-    @gender = gender
+#     @occasion = occasion
+#     @gender = gender
   end
   
   def temp
