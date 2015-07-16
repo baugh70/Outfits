@@ -1,3 +1,4 @@
+require_relative 'shirt.rb'
 class Outfit
   attr_reader = :zip_code, :occasion, :gender
   
@@ -60,8 +61,5 @@ class Outfit
       }
     
     @outfit
-  end
-  
-  
-  
+  end 
 end
