@@ -1,7 +1,7 @@
 class Outfit
   attr_reader = :zip_code, :occasion, :gender
   
-  def initialize(zip_code)
+  def initialize(zip_code, occasion, gender)
     @zip_code = zip_code
     @occasion = occasion
     @gender = gender
@@ -53,9 +53,9 @@ class Outfit
   
   def finalize
     @outfit = {
-      :hat => get_hat
-      :shirt => get_shirt
-      :pants => get_pants
+      :hat => get_hat,
+      :shirt => get_shirt,
+      :pants => get_pants,
       :shoes => get_shoes
       }
     
