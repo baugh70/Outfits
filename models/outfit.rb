@@ -12,10 +12,6 @@ class Outfit
     set_shoes
   end
   
-  def temp
-    80
-  end
-  
   def hot_or_cold
     if(@temp >= 80)
       return "hot"
