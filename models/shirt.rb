@@ -18,7 +18,7 @@ class Shirt
             img: "313598e1e2ac1a7ab2879108aa9d4407.jpg"
         },
         5 => {name: "Red Shirt",
-              img: "www.143shopping.com-143Shopping-565-32.jpg"
+              img: "12996914324027A.jpg"
         }
       }
     

@@ -33,7 +33,7 @@ class Outfit
       @pants = shorts.shorts
     else
       pants = Pants.new(r.rand(0..5))
-      @pants = pants.new
+      @pants = pants.pants
     end
   end
   
