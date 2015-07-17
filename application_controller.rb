@@ -15,7 +15,8 @@ class MyApp < Sinatra::Base
 
   post '/outfit' do
 
-    @outfit = Outfit.new(params["zip_code"])
+    clothes =Outfit.new(params["zip_code"])
+    @outfit = clothes
     erb :outfit
   end
 end

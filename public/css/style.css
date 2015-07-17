@@ -2,8 +2,12 @@
 
 
 body {
-    background-image: url("../images/backgrounds-for-nature-desktop-wallpaper-tumblr-vintage-desktop-picture-tumblr-wallpaper.jpg");
-
+  background-image: url("../images/backgrounds-for-nature-desktop-wallpaper-tumblr-vintage-desktop-picture-tumblr-wallpaper.jpg");
+  color: white;
+font-family: 'Lobster', cursive;
+  text-align: center;
 }
+
+
 
 

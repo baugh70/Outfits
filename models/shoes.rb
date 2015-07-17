@@ -12,7 +12,7 @@ class Shoes
         img: "images/nike-sb-2009-april-sneakers-1.jpg"
         }, 
       3 => {name: "Timbs",
-        img: "images/10061024-HERO?$GRID-IMAGE$"
+        img: "images/10061024-HERO.jpg"
         },
       4 => {name: "Running sneakers",
         img: "images/sneakers.jpg"

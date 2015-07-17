@@ -2,13 +2,24 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <title>title</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <title>Outfit app</title>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
  <body>
-   <h2> Hat: <%= @outfit.finalize[:hat][:name] %> </h2> <br>
-   <img src= "<%= @outfit.finalize[:hat][:img] %>">
+   <div class="container-fluid">
+     <h2> Hat: <%= @outfit.finalize[:hat][:name] %> </h2> <br>
+     <img src= "<%= @outfit.finalize[:hat][:img] %>" width="250" height="250"><br> <br><br>
+     
+     <h2> Shirt: <%= @outfit.finalize[:shirt][:name] %> </hat2><br>
+     <img src="<%= @outfit.finalize[:shirt][:img] %>" width="250" height="250"<br> <br><br>
+     
+     <h2> Pants: <%= @outfit.finalize[:pants][:name] %> </hat2><br>
+     <img src="<%= @outfit.finalize[:pants][:img] %>" width="250" height="250"<br> <br><br>
+     
+     <h2> Shoes: <%= @outfit.finalize[:shoes][:name] %> </hat2><br>
+     <img src="<%= @outfit.finalize[:shoes][:img] %>" width="250" height="250"<br> <br><br>
+   </div>
    <br><br>
  </body>
 </html>

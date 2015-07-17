@@ -2,20 +2,20 @@ class Hat
   def initialize(num)
     @num = num   
     @hats ={
-      0 => {name: "NBA snapback",
-           img: "img"
+      0 => {name: "NBA Snapback",
+        img: "images/nba_logo_snapback_hats_005.jpg"
         },
-      1 => {name: "NFL snapback",
-           img: "img"
+      1 => {name: "NFL Snapback",
+        img: "images/PICT1993.jpg"
         },
-      2 => {name: "Mitchell and Ness snapback",
-            img: "img"
+      2 => {name: "Mitchell and Ness Snapback",
+        img: "images/img-thing.jpg"
         },
       3 => {name: "Fedora",
-            img: "img"
+        img: "images/IJ554_BLACK_3Q.jpg"
         },
-      4 => {name: "Bucket hat",
-            img: "img"
+      4 => {name: "Bucket Hat",
+        img: "images/Empyre-Shady-Bucket-Hat-_242796.jpg"
         }
       }
   end
