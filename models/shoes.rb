@@ -3,22 +3,22 @@ class Shoes
     @num =num
     @sneakers ={
       0 => {name: "Sperrys",
-           img: "img"
+        img: "images/sperrys.jpg"
            }, 
       1 => {name: "Jordans",
-        img: "img"
+        img: "images/Air-Jordans.jpg"
         }, 
       2 =>  {name: "Nikes",
-            img: "img"
+        img: "images/nike-sb-2009-april-sneakers-1.jpg"
         }, 
       3 => {name: "Timbs",
-            img: "img"
+        img: "images/10061024-HERO?$GRID-IMAGE$"
         },
       4 => {name: "Running sneakers",
-            img: "img"
+        img: "images/sneakers.jpg"
         }, 
       5 => {name: "Adidas",
-            img: "img"
+        img: "images/ADIDAS_hardcourt_white.jpg"
         } 
       }
   end
