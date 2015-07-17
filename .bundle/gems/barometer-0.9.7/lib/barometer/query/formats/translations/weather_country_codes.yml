@@ -1,0 +1,200 @@
+# first term : weather.com non:standard country_code
+# second term : standard country_code
+#
+# http://ca.weather.yahoo.com/regional/INTL1.html?More%20World%20Cities
+# http://www.theodora.com/country_digraphs.html
+# http://www.unc.edu/~rowlett/units/codes/country.htm
+#
+
+AG : DZ
+AN : AD
+AV : AI
+AY : AQ
+AC : AG
+AA : AW
+### Ascension Island SH : AC (iana code, not iso code)
+AS : AU
+AU : AT
+AJ : AZ
+
+BF : BS
+BA : BH
+BG : BD
+BO : BY
+BH : BZ
+BN : BJ
+BD : BM
+BC : BW
+BL : BO
+BK : BA
+BX : BN
+BU : BG
+UV : BF
+BY : BI
+VI : VG
+
+CB : KH
+CJ : KY
+CT : CF
+CD : TD
+CI : CL
+CH : CN
+KT : CX
+CN : KM
+CF : CG
+CG : CD
+CW : CK
+CS : CR
+IV : CI
+EZ : CZ
+
+DA : DK
+DJ : DJ
+DO : DM
+DR : DO
+
+ES : SV
+EK : GQ
+EN : EE
+
+FP : PF
+
+GB : GA
+GA : GM
+GG : GE
+GM : DE
+GJ : GD
+GV : GN
+PU : GW
+
+HA : HT
+HO : HN
+
+IC : IS
+IZ : IQ
+EI : IE
+IS : IL
+
+JA : JP
+
+KR : KI
+KN : KP
+KS : KR
+KU : KW
+
+LG : LV
+LE : LB
+LS : LI
+LI : LR
+LT : LS
+LH : LT
+
+MA : MG
+MI : MW
+MB : MQ
+MP : MU
+MF : YT
+MN : MC
+# Montenegro (YI) : ME
+MO : MA
+BM : MM
+MG : MN
+
+WA : NA
+NT : AN
+NU : NI
+NG : NE
+NI : NG
+
+WE : PS
+PM : PA
+PP : PG
+PA : PY
+RP : PH
+PO : PT
+
+RS : RU
+
+SX : GS
+SC : KN
+ST : LC
+TP : ST
+SG : SN
+# Serbia (YI) : RS
+SE : SC
+SN : SG
+LO : SK
+BP : SB
+SF : ZA
+SP : ES
+CE : LK
+SU : SD
+NS : SR
+WZ : SZ
+SW : SE
+SZ : CH
+
+TI : TJ
+TO : TG
+TN : TO
+TD : TT
+TS : TN
+TU : TR
+TX : TM
+TK : TC
+
+UP : UA
+UK : GB
+
+NH : VU
+VM : VN
+
+WI : EH
+
+YM : YE
+
+ZA : ZM
+ZI : ZW
+
+# Aland Islands : AX
+# Bouvet Island : BV
+# British Indian Ocean Territory : IO
+# Cocos (Keeling) Islands : CC
+# East Timor : TL
+# Faroe Islands : FO
+# France, Metropolitan : FX
+# French Southern Territories : TF
+# Great Britain (UK) : GB
+# Heard and McDonald Islands : HM
+# Hong Kong : HK
+# Jersey : JE
+# Macau : MO
+# Montserrat : MS
+# Neutral Zone : NT
+# Niue : NU
+# Norfolk Island : NF
+# Oman : OM
+# Pitcairn : PN
+# Saint Vincent & the Grenadines : VC
+# Samoa : WS
+# St. Helena : SH
+# St. Pierre and Miquelon : PM
+# Svalbard & Jan Mayen Islands : SJ
+# Tokelau : TK
+# US Minor Outlying Islands : UM
+# USSR (former) : SU
+# Vatican City State (Holy See) : VA
+# Wallis and Futuna Islands : WF
+# Yugoslavia (former) : YU
+# (ZR : Zaire) : See CD Congo, Democratic Republic
+
+# four letter codes
+### USWQ : ??? Wake Island
+### Virgin Islands (U.S.) USVI : VI
+### Puerto Rico USPR : PR
+### Northern Mariana Islands USMP : MP
+### Micronesia USFM : FM
+### Marshall Islands USMH : MH
+### American Samoa USAS : AS
+### Palau USPW : PW
+### Guam USGU : GU

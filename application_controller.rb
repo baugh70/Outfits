@@ -5,6 +5,7 @@ require_relative 'models/hats.rb'
 require_relative 'models/pants.rb'
 require_relative 'models/shirt.rb'
 require_relative 'models/shoes.rb'
+require_relative 'models/weather.rb'
 class MyApp < Sinatra::Base
 
   get '/' do

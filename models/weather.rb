@@ -1,13 +1,13 @@
-require 'open-uri'
-
 class Weather
   def initialize(zip_code)
     @zip_code = zip_code
   end
   
-  def get_temprature
-    api_key = "91e4da8005752c901b9da9ff1eda3e5e"
-    site = open("")
+  def temperature
+    barometer = Barometer.new(@zip_code)
+    weather = barometer.measure
+    temp = weather.current.temperature.to_f * (9.0/5.0) +32
+    temp
   end
   
 end

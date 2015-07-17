@@ -2,7 +2,8 @@ class Outfit
   attr_reader = :zip_code, :occasion, :gender
   
   def initialize(zip_code)
-    @zip_code = zip_code
+    @weather = Weather.new(zip_code)
+    @temp = @weather.temperature
 #     @occasion = occasion
 #     @gender = gender
   end
@@ -12,7 +13,7 @@ class Outfit
   end
   
   def hot_or_cold
-    if(temp >= 70)
+    if(@temp >= 70)
       return "hot"
     else
       return "cold"

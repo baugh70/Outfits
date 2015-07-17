@@ -3,15 +3,27 @@
  <head>
   <meta charset="UTF-8">
   <title>Outfit app</title>
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
  <body>
-   <form action="/outfit" method="post">
-     Zip Code:<br> 
-     <input type="text" name="zip_code" placeholder="Zip Code"><br>
-     
-     <input type="submit" value="Submit">
-   </form>  
+   <div class= "container-fluid">
+     <h1 class = "text-center"> Outfit Picker </h1>
+     <h3 class="text-center"> The Outfit Picker picks out your daily clothing. </h3>
+   </div>
    
+   <div class="container-fluid">
+
+   </div>
+   
+    <div class= "container-fluid">
+      <br><br><br>
+    <form action="/outfit" method="post" class="text-center">
+       City Name:<br> 
+       <input type="text" name="zip_code" placeholder="City Name"><br>
+
+       <input type="submit" value="Submit">
+     </form>  
+      </div>
  </body>
 </html>

@@ -1,7 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster|Hind:300);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|Lobster);
+
+
 body {
-  background-color: white;
-   font-size: 20px;
-  text-align:center;
-  font-family: 'Hind', sans-serif;
+    background-image: url("../images/backgrounds-for-nature-desktop-wallpaper-tumblr-vintage-desktop-picture-tumblr-wallpaper.jpg");
+
 }
+
+
