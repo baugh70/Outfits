@@ -12,7 +12,7 @@ class Pants
         img: "images/blue-Nike-basketball-shorts.jpg"
         },
       3 => {name: "Green Shorts",
-        img: "images/green_shorts"
+        img: "images/green_shorts.jpg"
         },
       4 => {name: "Red Shorts",
         img: "images/TR9712LRE-detail.jpg"
