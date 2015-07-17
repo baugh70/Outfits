@@ -17,7 +17,7 @@ class Outfit
   end
   
   def hot_or_cold
-    if(@temp >= 70)
+    if(@temp >= 80)
       return "hot"
     else
       return "cold"
